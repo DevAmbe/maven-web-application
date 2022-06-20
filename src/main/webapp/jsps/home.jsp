@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Landmark Technologies llc, home of the millionaires. Signup for batch29 today and be happy tomorrow.</h1>
+<h1 align="center">Welcome to Landmark Technologies MD, home of the millionaires. Signup for batch29 today and be happy tomorrow.</h1>
 <h2 align="center"> We are supporting the Ebay Black Friday Project.
 	Landmark Technologies is a software development company. 
 	Class29 will run from July, 2022. Please dont fail to be a part of this life changing experience.
