@@ -13,7 +13,7 @@
 <h2 align="center"> We are supporting the Ebay Black Friday Project.
 	Landmark Technologies is a software development company. 
 	Class29 will run from July, 2022. Please dont fail to be a part of this life changing experience.
-	The shout of the King Jesus is in our midst. HE IS OUR SUCCESS ACCESS KEY</h2>
+	The shout of the King Jesus is in our midst. HE IS OUR SUCCESS ACCESS KEY FOREVER AND EVER, AMEN!</h2>
 <hr>
 <div style="text-align: center;">
 	<span>
