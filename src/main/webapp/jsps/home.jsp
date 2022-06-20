@@ -12,7 +12,7 @@
 <h1 align="center">Welcome to Landmark Technologies, home of the millionaires. Signup for batch29 today and be happy tomorrow.</h1>
 <h2 align="center"> We are supporting the Ebay Black Friday Project.
 	Landmark Technologies is a software development company. 
-	Class29 will run from July, 2022.
+	Class29 will run from July, 2022. Please dont fail to be a part of this life changing experience.
 	The shout of the King Jesus is in our midst. HE IS OUR SUCCESS ACCESS KEY</h2>
 <hr>
 <div style="text-align: center;">
