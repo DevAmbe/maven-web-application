@@ -97,19 +97,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url> http://3.91.177.164:8081/repository/paypal2-release/</url>
+	      <url>http://54.84.58.223:8081/repository/paypal2-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.91.177.164:8081/repository/paypal2-snapshot/</url>
+	      <url>http://54.84.58.223:8081/repository/paypal2-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-apps</finalName>
+		<finalName>maven-web-apps Tespla spaceX</finalName>
 		
 		<plugins>
 			<plugin>
