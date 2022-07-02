@@ -1,0 +1,54 @@
+pipeline{ 
+    agent any
+    tools {
+        maven "maven3.8.6"
+    }
+        stages{
+        stage('1cloning'){
+            steps{
+                sh "echo Apps latest version committed"
+                // git "git clone"
+                git "https://github.com/DevAmbe/maven-web-application"
+            }
+        }
+        stage('2build'){
+            steps{
+                sh "echo creating war packages"
+                sh "mvn clean install"
+            }
+        }
+        stage('3CodeQuality'){
+            steps{
+                sh "echo Code quality analysis in progress.."
+                sh "mvn sonar:sonar"
+            }
+        }
+         stage('4uploadtonexus'){
+            steps{
+                sh "echo Ready to upload artifacts"
+                sh "mvn deploy"
+            }
+        }
+        stage('5deployTomcat'){
+            steps{
+                sh "echo Ready for deployment"
+                  deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://54.172.70.188:8080/')], contextPath: null, war: 'target/*war' 
+            }
+        }
+    }
+        post {
+            always{emailext body: '''Hi
+This job is all good to go, kudos!!
+FIGC llc''', recipientProviders: [developers()], subject: 'job status', to: 'cambejulio@gmail.com'}
+            success{
+                emailext body: '''Hi
+This job is all good to go, kudos!!
+FIGC llc''', recipientProviders: [developers()], subject: 'job status', to: 'cambejulio@gmail.com'
+            }
+            failure{emailext body: '''Hi
+This job failled, please check!!
+FIGC llc''', recipientProviders: [developers()], subject: 'job status', to: 'cambejulio@gmail.com'}
+        
+       }
+}
+
