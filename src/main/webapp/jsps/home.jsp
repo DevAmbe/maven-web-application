@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Dominion Software Solutions, Virginia USA Office. Home of the future milloinaires</h1>
+<h1 align="center">Welcome to Dominion Software Solutions, Virginia USA Office. Home of the future milloinaires in Dollars</h1>
 <h1 align="center">I am done next month.We are developing and supporting quality  Software Solutions to millions of clients.
 	We offer  Training for DevOps with Linux and Cloud equipping IT Engineers for best performance. Thank you Prof Simon Legah for changing many lives</h1>
 <hr>
